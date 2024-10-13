@@ -1,5 +1,5 @@
 <template>
-  <AppLayout1 :pageTitle="'News and Updates'">
+  <AppLayout1 :pageTitle="'Updates and News'">
     <div class="news">
       <!-- News Section -->
       <section class="news-section">
