@@ -1,26 +1,12 @@
 <template>
   <div id="app">
-    <HeaderFile />
-    <NavigationFile />
-    <div class="main-container">
-      <SideBar />
-      <router-view />
-    </div>
+    <router-view />
   </div>
 </template>
 
 <script>
-import HeaderFile from './components/HeaderFile.vue';
-import NavigationFile from './components/NavigationFile.vue';
-import SideBar from './components/SideBar.vue';
-
 export default {
   name: 'App',
-  components: {
-    HeaderFile,
-    NavigationFile,
-    SideBar
-  }
 };
 </script>
 
